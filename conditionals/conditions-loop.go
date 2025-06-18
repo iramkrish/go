@@ -12,4 +12,16 @@ func Conditionals() {
 	for i := 0; i < 5; i++ {
 		fmt.Println(MultiplyByTwo(i))
 	}
+
+	// switch cases
+	num := 1
+
+	switch num {
+	case 1:
+		fmt.Println("One")
+		fallthrough
+	case 2:
+		fmt.Println("Two (because of fallthrough)")
+	}
+
 }
