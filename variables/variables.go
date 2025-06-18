@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main(){
+func Variables(){
 	// string
 	var name string = "ram"
 	lastName := "krishnan"
@@ -22,4 +22,5 @@ func main(){
 	// const needs to be initialized , no default value and canot be reassigned
 	const constValue int = 90
 	fmt.Println(constValue)
+
 }
