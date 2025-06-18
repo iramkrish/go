@@ -23,5 +23,4 @@ func Conditionals() {
 	case 2:
 		fmt.Println("Two (because of fallthrough)")
 	}
-
 }
