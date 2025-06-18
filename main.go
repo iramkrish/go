@@ -11,4 +11,5 @@ func main() {
 	conditionals.Conditionals()
 	arraySliceMap.Array()
 	arraySliceMap.Slice()
+	arraySliceMap.Map()
 }
