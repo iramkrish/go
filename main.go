@@ -3,6 +3,7 @@ package main
 import (
 	"myapp/arraySliceMap"
 	"myapp/conditionals"
+	"myapp/pointers"
 	"myapp/variables"
 )
 
@@ -12,4 +13,5 @@ func main() {
 	arraySliceMap.Array()
 	arraySliceMap.Slice()
 	arraySliceMap.Map()
+	pointers.Pointer()
 }
